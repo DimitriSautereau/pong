@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://jln3dvyd5ofl"]
+
+[ext_resource type="Script" uid="uid://csi87uhfm4eb2" path="res://srcJulien/playerPong2/player_pong_2.gd" id="1_vv4ib"]
+[ext_resource type="Texture2D" uid="uid://c1qddoghf0x8k" path="res://icon.svg" id="2_1ojg0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h6l62"]
+size = Vector2(64, 224)
+
+[node name="PlayerPong2" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_vv4ib")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(-1.9073486e-06, 3.8146973e-06)
+scale = Vector2(0.49999994, 1.7500001)
+texture = ExtResource("2_1ojg0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_h6l62")

@@ -1,0 +1,84 @@
+[gd_scene load_steps=10 format=3 uid="uid://0lnh1ub4scvv"]
+
+[ext_resource type="PackedScene" uid="uid://c3rrctlxunj8c" path="res://srcJulien/playerPong/player_pong.tscn" id="1_c14rc"]
+[ext_resource type="Script" uid="uid://c5y8cvkf6tp5b" path="res://srcJulien/world.gd" id="1_p38m3"]
+[ext_resource type="PackedScene" uid="uid://cdi8dnq7cf4xc" path="res://srcJulien/Ball/character_body_2d.tscn" id="2_lmbum"]
+[ext_resource type="PackedScene" uid="uid://jln3dvyd5ofl" path="res://srcJulien/playerPong2/player_pong_2.tscn" id="3_bn47n"]
+[ext_resource type="Texture2D" uid="uid://c1qddoghf0x8k" path="res://icon.svg" id="4_qjv04"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kbd24"]
+size = Vector2(42, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p38m3"]
+size = Vector2(32, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ncpm6"]
+size = Vector2(42.00002, 1176)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uagm6"]
+size = Vector2(32.000153, 1184)
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_p38m3")
+
+[node name="PlayerPong" parent="." instance=ExtResource("1_c14rc")]
+position = Vector2(160, 336)
+
+[node name="Ball" parent="." instance=ExtResource("2_lmbum")]
+position = Vector2(453, 324)
+
+[node name="PlayerPong2" parent="." instance=ExtResource("3_bn47n")]
+position = Vector2(1056, 336)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." groups=["mur"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(9.977529, 327.99997)
+scale = Vector2(0.28089887, 4.9999995)
+texture = ExtResource("4_qjv04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(11, 324)
+shape = SubResource("RectangleShape2D_kbd24")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." groups=["mur"]]
+position = Vector2(1144, -8)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(9.977529, 327.99997)
+scale = Vector2(0.28089887, 4.9999995)
+texture = ExtResource("4_qjv04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(8, 332)
+shape = SubResource("RectangleShape2D_p38m3")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+position = Vector2(872, -8)
+rotation = 1.5707964
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D3"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(9.977529, 290.981)
+scale = Vector2(0.28089887, 9.189514)
+texture = ExtResource("4_qjv04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(11.00001, 292)
+shape = SubResource("RectangleShape2D_ncpm6")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+position = Vector2(968, 640)
+rotation = 1.5707964
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D4"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(6.67572e-06, 392)
+scale = Vector2(0.21449046, 9.227853)
+texture = ExtResource("4_qjv04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+position = Vector2(0.00018310547, 392)
+shape = SubResource("RectangleShape2D_uagm6")
