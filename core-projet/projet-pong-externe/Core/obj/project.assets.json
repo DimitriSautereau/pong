@@ -13,13 +13,12 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\olgad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Core\\obj\\",
+      "outputPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Core\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\olgad\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
