@@ -30,28 +30,28 @@ position = Vector2(453, 324)
 [node name="PlayerPong2" parent="." instance=ExtResource("3_bn47n")]
 position = Vector2(1056, 336)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." groups=["mur"]]
+[node name="Letf_Wall" type="StaticBody2D" parent="." groups=["mur"]]
 
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+[node name="Sprite2D" type="Sprite2D" parent="Letf_Wall"]
 modulate = Color(0, 0, 0, 1)
 position = Vector2(9.977529, 327.99997)
 scale = Vector2(0.28089887, 4.9999995)
 texture = ExtResource("4_qjv04")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Letf_Wall"]
 position = Vector2(11, 324)
 shape = SubResource("RectangleShape2D_kbd24")
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="." groups=["mur"]]
+[node name="Right_Wall" type="StaticBody2D" parent="." groups=["mur"]]
 position = Vector2(1144, -8)
 
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2"]
+[node name="Sprite2D" type="Sprite2D" parent="Right_Wall"]
 modulate = Color(0, 0, 0, 1)
 position = Vector2(9.977529, 327.99997)
 scale = Vector2(0.28089887, 4.9999995)
 texture = ExtResource("4_qjv04")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Right_Wall"]
 position = Vector2(8, 332)
 shape = SubResource("RectangleShape2D_p38m3")
 
@@ -82,3 +82,15 @@ texture = ExtResource("4_qjv04")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
 position = Vector2(0.00018310547, 392)
 shape = SubResource("RectangleShape2D_uagm6")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label_Score" type="Label" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_right = 1.0070001
+anchor_bottom = 1.0
+offset_left = 424.0
+offset_top = 56.0
+offset_right = -160.06409
+offset_bottom = -512.0
+horizontal_alignment = 1
