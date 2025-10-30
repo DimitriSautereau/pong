@@ -1,19 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Iteration\\Iteration.csproj": {}
+    "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Iteration\\Iteration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Iteration\\Iteration.csproj": {
+    "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Iteration\\Iteration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Iteration\\Iteration.csproj",
+        "projectUniqueName": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Iteration\\Iteration.csproj",
         "projectName": "Iteration",
-        "projectPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Iteration\\Iteration.csproj",
+        "projectPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Iteration\\Iteration.csproj",
         "packagesPath": "C:\\Users\\olgad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projets\\core-godot\\projet-godot-externe\\Iteration\\obj\\",
+        "outputPath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\core-projet\\projet-pong-externe\\Iteration\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\olgad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

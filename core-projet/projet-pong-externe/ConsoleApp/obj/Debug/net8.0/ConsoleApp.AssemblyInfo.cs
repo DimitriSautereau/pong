@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Iteration")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a392e4d32091e59ccf304f1ef898f342545fb2ef")]
-[assembly: System.Reflection.AssemblyProductAttribute("Iteration")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Iteration")]
+[assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
