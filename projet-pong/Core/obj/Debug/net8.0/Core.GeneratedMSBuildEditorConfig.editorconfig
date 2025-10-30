@@ -11,3 +11,5 @@ build_property.RootNamespace = Core
 build_property.ProjectDir = C:\Users\olgad\Desktop\Cours-local\4eme\Godot\projet\projet-pong\Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 

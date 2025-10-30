@@ -1,12 +1,11 @@
 using Core;
 using Godot;
-using GodotVector2 = Godot.Vector2;  // ← Alias pour Godot
-using CoreVector2 = Core.Vector2;     // ← Alias pour Core
+using GodotVector2 = Godot.Vector2; 
+using CoreVector2 = Core.Vector2;     
 
 namespace GodotApp;
 
 
-// Contrôleur principal - Synchronise le jeu Core avec Godot
 
 public partial class PongController : Node2D
 {
@@ -38,15 +37,11 @@ public partial class PongController : Node2D
 		_input = new GodotInput();
 		_game = new PongGame(ARENA_WIDTH, ARENA_HEIGHT, _input);
 
-		GD.Print("🎮 Pong Game initialized!");
 	}
 
 	public override void _Process(double delta)
 	{
-		// Mise à jour du jeu
 		_game.Update((float)delta);
-
-		// Synchroniser les visuels
 		SyncVisuals();
 	}
 
@@ -54,7 +49,7 @@ public partial class PongController : Node2D
 		
 		GameState state = _game.State;
 
-		// Convertir Core.Vector2 → Godot.Vector2
+		// Convertir Core.Vector2 vers Godot.Vector2
 		_player1Visual.Position = new GodotVector2(
 			state.Player1.Position.X,
 			state.Player1.Position.Y
@@ -65,7 +60,7 @@ public partial class PongController : Node2D
 			state.Player2.Position.Y
 		);
 
-		// La balle : Position Core = centre, Position Godot = coin haut-gauche
+		
 		_ballVisual.Position = new GodotVector2(
 			state.Ball.Position.X - state.Ball.Radius,
 			state.Ball.Position.Y - state.Ball.Radius

@@ -133,9 +133,9 @@ public class ConsoleRenderer
         {
             _sb.AppendLine();
             string winner = state.ScorePlayer1 > state.ScorePlayer2 ? "PLAYER 1" : "PLAYER 2";
-            _sb.Append("  ★★★  ");
+            _sb.Append("       ");
             _sb.Append(winner);
-            _sb.AppendLine(" WINS!  ★★★");
+            _sb.AppendLine(" WINS!     ");
             _sb.AppendLine("  Press [R] to restart");
         }
         else
