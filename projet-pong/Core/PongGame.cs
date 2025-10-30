@@ -147,7 +147,7 @@ public class GameState
 // physique du jeu
 public class PhysicsSystem
 {
-    private readonly Random _random = new Random();
+    private readonly Random _random = new Random(); 
     private const float INITIAL_SPEED = 300f;
     private const float SPEED_INCREASE = 1.05f;
     private const float MAX_BOUNCE_ANGLE = 60f;

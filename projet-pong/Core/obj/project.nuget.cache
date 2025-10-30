@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6GerYlBggQE=",
+  "dgSpecHash": "kaiwLbwSPkQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\olgad\\Desktop\\Cours-local\\4eme\\Godot\\projet\\projet-pong\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
+    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.20\\microsoft.netcore.app.runtime.win-x64.8.0.20.nupkg.sha512",
+    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.20\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.20.nupkg.sha512",
+    "C:\\Users\\olgad\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.20\\microsoft.aspnetcore.app.runtime.win-x64.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }

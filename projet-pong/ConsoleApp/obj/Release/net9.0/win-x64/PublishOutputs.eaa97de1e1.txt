@@ -1,0 +1,3 @@
+C:\Users\olgad\Desktop\Cours-local\4eme\Godot\projet\projet-pong\ConsoleApp\bin\Release\net9.0\win-x64\publish\ConsoleApp.pdb
+C:\Users\olgad\Desktop\Cours-local\4eme\Godot\projet\projet-pong\ConsoleApp\bin\Release\net9.0\win-x64\publish\Core.pdb
+C:\Users\olgad\Desktop\Cours-local\4eme\Godot\projet\projet-pong\ConsoleApp\bin\Release\net9.0\win-x64\publish\ConsoleApp.exe

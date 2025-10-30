@@ -24,6 +24,10 @@ window/size/viewport_height=600
 
 project/assembly_name="Godot"
 
+[editor]
+
+movie_writer/movie_file="C:/Users/olgad/Downloads/recording.avi"
+
 [input]
 
 p1_up={
